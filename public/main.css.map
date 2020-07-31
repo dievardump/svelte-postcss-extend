@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "file": "main.css",
+  "sources": [
+    "../App.svelte",
+    "../Child.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\nimport Child from './Child.svelte';\n</script>\n\n<style lang=\"postcss\">h1 {\n  color: red;\n}</style>\n\n<h1>Hello World!</h1>\n<Child />\n",
+    "<style lang=\"postcss\">p {\n  color: red;\n}</style>\n\n<p>Child content</p>\n"
+  ],
+  "names": [],
+  "mappings": "AAIsB,EAAE,eAAC,CAAC,AACxB,KAAK,CAAE,GAAG,AACZ,CAAC;ACNqB,CAAC,cAAC,CAAC,AACvB,KAAK,CAAE,GAAG,AACZ,CAAC"
+}
